@@ -1,0 +1,22 @@
+$secondary: red;
+
+ul{
+  color: $secondary;
+}
+
+#clients{
+  list-style: none;
+  padding: 0;
+  li{
+    padding: 1rem;
+    font-size: 1.4rem;
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+    &:nth-child(2n+1){
+      background-color: blue;
+      color: white;
+      font-weight: bold;
+    }
+  }
+}
